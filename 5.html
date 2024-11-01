@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="Man-working.png">
+    <title>SocialCents - Earn Money for Social Tasks</title>
+    
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f6f9;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background: linear-gradient(135deg, #2d87f0, #3b5998);
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffc107;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: url('Man-working.png') no-repeat center/cover;
+    color: #fff;
+    background-color: rgba(45, 135, 240, 0.9);
+    background-blend-mode: overlay;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    background-color: #ffc107;
+    color: #333;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffca2c;
+    transform: scale(1.05);
+}
+
+/* Sections */
+#how-it-works, #testimonials, #transactions, #get-started {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 900px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2d87f0;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #ffc107;
+    display: block;
+    margin: 0.5rem auto 0;
+}
+
+.steps, .testimonials, .transactions {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.step, .testimonial, .transaction {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step:hover, .testimonial:hover, .transaction:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Button in Get Started */
+#get-started button {
+    background-color: #2d87f0;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#get-started button:hover {
+    background-color: #256bce;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #2d87f0;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <div class="logo">Social<span>Cents</span></div>
+        <nav>
+            <ul>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#transactions">Transactions</a></li>
+                <li><a href="#get-started">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Make Money by Completing Simple Social Tasks</h1>
+        <p>Join thousands of users earning extra cash online by liking, sharing, and following. No fees, no hassle.</p>
+        <a href="#get-started" class="cta-button">Start Earning Now</a>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <h3>Sign Up</h3>
+                <p>Create an account in seconds to start earning.</p>
+            </div>
+            <div class="step">
+                <h3>Choose Tasks</h3>
+                <p>Select social tasks that suit you, from sharing posts to following accounts.</p>
+            </div>
+            <div class="step">
+                <h3>Get Paid</h3>
+                <p>Complete tasks and receive payment instantly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"SocialCents made it easy for me to earn extra money on my phone! Highly recommend it!"</p>
+                <span>- Jane D., Los Angeles</span>
+            </div>
+            <div class="testimonial">
+                <p>"Fast payments and simple tasks. I've already made over $200 in my first month!"</p>
+                <span>- Mike W., Chicago</span>
+            </div>
+            <div class="testimonial">
+                <p>"A great platform that lets me earn on my own schedule."</p>
+                <span>- Sarah L., New York</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="transactions">
+        <h2>Recent Transactions</h2>
+        <div class="transactions">
+            <div class="transaction">
+                <img src="transaction1.png" alt="Transaction Screenshot">
+                <p>$15.00 earned - Task: Instagram Like</p>
+            </div>
+            <div class="transaction">
+                <img src="transaction2.png" alt="Transaction Screenshot">
+                <p>$20.00 earned - Task: Twitter Follow</p>
+            </div>
+            <div class="transaction">
+                <img src="transaction3.png" alt="Transaction Screenshot">
+                <p>$30.00 earned - Task: Facebook Share</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="get-started">
+        <h2>Ready to Start Earning?</h2>
+        <p>Join our community and start making money today!</p>
+        <button onclick="register()">Sign Up Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SocialCents | All Rights Reserved</p>
+    </footer>
+
+    <script>
+// script.js
+
+function register() {
+    alert("Welcome to SocialCents! Redirecting you to the registration page...");
+    // Simulate redirection to registration page
+    window.location.href = "#get-started";
+}
+
+
+</script>
+</body>
+</html>
